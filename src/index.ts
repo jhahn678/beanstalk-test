@@ -5,7 +5,7 @@ require('dotenv').config()
 
 const app = express()
 app.use(express.static(path.join(__dirname, 'public')))
-app.use('/test', (req, res) => {
+app.get('/test', (req, res) => {
     logName('Terrence')
     res.status(200).json({ test: 'testing this endpoint'})
 })

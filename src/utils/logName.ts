@@ -1,0 +1,1 @@
+export const logName = (name: string) => console.log(`I am one named ${name}`)

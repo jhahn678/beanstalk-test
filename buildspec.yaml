@@ -15,5 +15,6 @@ artifacts:
   files:
     - package.json
     - package-lock.json
+    - .ebextensions/**/*
     - 'build/**/*'
   discard-paths: yes
